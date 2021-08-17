@@ -6,6 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
+requireDir('./models/');
 app.use('/', require('../routes/api'));
+// requireDir('./models/*');
 
 module.exports = app;

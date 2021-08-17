@@ -9,6 +9,7 @@ router.get('/', function(req, res){
 });
 
 router.use('/eventos', require('./eventos'));
+router.use('/usuarios', require('./usuarios'));
 
 module.exports = router;
 

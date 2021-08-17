@@ -18,4 +18,4 @@ const Inscrito = new Schema({
     ]
 }, {timestamps: true})
 
-mongoose.model('Inscrito');
+mongoose.model('Inscrito', Inscrito);

@@ -15,6 +15,7 @@ const Usuario = new Schema({
         }
     },
     senha: {
+        type: String,
         required: true
     }
 }, {timestamps: true});
